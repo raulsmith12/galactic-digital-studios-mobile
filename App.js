@@ -10,7 +10,6 @@ import { Contact } from './screens/Contact';
 import { Team } from './screens/Team';
 import { Services } from './screens/Services';
 import { Examples } from './screens/Examples';
-import { Image } from "react-native";
 
 const Tab = createBottomTabNavigator();
 
