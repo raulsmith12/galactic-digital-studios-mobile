@@ -17,10 +17,7 @@ export const Contact = () => {
                     <Button icon="github" mode="elevated" onPress={() => Linking.openURL('https://github.com/raulsmith12')} style={{ marginTop: 10, marginBottom: 10 }}>Look Us Up on Github</Button>
                     <Text style={{ textAlign: "center", fontSize: 16, color: "#483475" }}>
                         <Icon name="map-marker-alt" size={24} color="#483475" />
-                        &nbsp;Based in Salt Lake City, Utah
-                    </Text>
-                    <Text style={{ textAlign: "center", fontSize: 16, color: "#483475" }}>
-                        but servicing clients throughout
+                        &nbsp;Servicing clients throughout
                     </Text>
                     <Text style={{ textAlign: "center", fontSize: 16, color: "#483475" }}>
                         the continental United States&nbsp;
@@ -35,7 +32,6 @@ export const Contact = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingTop: Platform.OS === 'android' ? 20 : 0,
     },
     pageContainer: {
         flex: 1,
